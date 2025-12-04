@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joe Mama - CV</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #ffd6e8, #fff0f6);
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .profile-pic {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 6px solid #ffb6d9;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-top: 20px;
+      color: #d63384;
+    }
+    h2 {
+      margin-top: 40px;
+      color: #d63384;
+      border-bottom: 2px solid #ffd1e8;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    p, li {
+      font-size: 1.1rem;
+    }
+    .section {
+      margin-top: 20px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="https://static.wikia.nocookie.net/ultimatepopculture/images/3/33/Sanrio_Characters_My_Melody_Image029.png" alt="Profile Picture" class="profile-pic" onerror="this.style.display='none'; document.getElementById('img-fallback').style.display='block';" />
+      <p id="img-fallback" style="display:none; font-size:0.9rem; color:#888;">Image couldn't be loaded. URL: https://static.wikia.nocookie.net/ultimatepopculture/images/3/33/Sanrio_Characters_My_Melody_Image029.png</p>
+      <h1>Joe Mama</h1>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <p>MRes in Psychological Methods</p>
+    </div>
+
+    <div class="section">
+      <h2>Things I Love</h2>
+      <ul>
+        <li>My Melody</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
